@@ -69,11 +69,44 @@ main .box {
 #box2 {
     margin-top: -15px;
     height: 430px;
+    position: relative;
+}
+
+#box2 .badge {
+    background-color: #FFCF00;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 12px 12px 0 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#box2 .badge p:nth-child(1) {
+    margin-bottom: -0px;
+    color: #1d539e;
+    font-weight: 600;
+    font-size: 18px
+}
+
+.popular {
+    background-color: var(--blue);
+    padding: 5px 25px;
+    border-radius: 99px;
+    color: white;
+    font-size: 12px;
 }
 
 #box2 button {
     background-color: var(--blue);
     color: white;
+}
+
+#box2 h3 {
+    margin-top: 80px;
 }
 
 .box {
